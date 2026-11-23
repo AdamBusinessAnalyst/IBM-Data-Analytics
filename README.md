@@ -1,49 +1,31 @@
-Verify : https://www.coursera.org/account/accomplishments/professional-cert/FWBBUXW834Y4
+# IBM Data Analyst Professional Certificate — Capstone
 
-Capstone Project: Emerging IT Skills Analysis Project Overview
+Coursework from the IBM Data Analyst Professional Certificate (Coursera).
+**Certificate:** [verify on Coursera](https://www.coursera.org/account/accomplishments/professional-cert/FWBBUXW834Y4)
 
-This repository contains my final capstone project for the IBM Data Analyst Professional Certificate. The project aims to analyze and identify the most in-demand programming skills, leveraging data from various sources to provide actionable insights for this year's report on emerging IT skills.
+## Capstone brief
 
-Project Steps Data Collection:
+Act as a data analyst at a global IT consultancy and identify emerging technology skills: the most in-demand programming languages, databases and IDEs, plus developer demographics. Main dataset: a ~1/10 random subset of the 2019 Stack Overflow Developer Survey (ODbL licence).
 
-Extracted data from job postings, training portals, and surveys.
-Aggregated data in formats such as .csv files, Excel sheets, and databases.
-Data Wrangling:
+| Step | Work | In this repo |
+|---|---|---|
+| 1. Data collection | REST APIs, a Flask jobs API, web scraping with BeautifulSoup | [`Task1/`](Task1/) notebooks |
+| 2. Data wrangling | Duplicates, missing values, normalisation (pandas, NumPy) | — |
+| 3. Exploratory analysis | Distributions, outliers, correlation | — |
+| 4. Visualisation | Matplotlib, Seaborn, data pulled from SQL | — |
+| 5. Dashboards | IBM Cognos Analytics, Google Looker Studio | — |
+| 6. Presentation | Findings and storytelling | — |
 
-Cleaned and prepared data using advanced data wrangling techniques with Python libraries such as Pandas and NumPy.
-Ensured data quality and consistency.
-Trend Analysis:
+## Task 1 notebooks
 
-Analyzed the data to identify key insights and trends.
-Focused on:
+| Notebook | What it covers |
+|---|---|
+| [`Access API's.ipynb`](Task1/Access%20API's.ipynb) | HTTP requests, JSON responses, working with REST APIs in Python |
+| [`Jobs_API.ipynb`](Task1/Jobs_API.ipynb) | Serving a jobs dataset through a Flask API for later collection |
+| [`Web-Scraping-Review-Lab-v1.ipynb`](Task1/Web-Scraping-Review-Lab-v1.ipynb) | Scraping HTML tables with requests and BeautifulSoup |
 
-Top programming languages in demand
-Essential database skills
-Popular Integrated Development Environments (IDEs)
-Statistical Techniques:
+More detail on the capstone tasks: [`Task1/README.md`](Task1/README.md).
 
-Applied statistical methods to uncover meaningful insights.
-Used various Python libraries like (Pandas, Numpy, Matplotlib, seaborn, BeautifulSoup, ect) for statistical analysis.
-Data Visualization:
+## Tools
 
-Created visualizations using Matplotlib and Seaborn.
-Developed an interactive dashboard using IBM Cognos Analytics & Google Looker Studio.
-Presentation:
-
-Compiled insights into a comprehensive presentation.
-Highlighted key findings to support data-driven decision-making.
-Tools and Technologies:
-
-Python for data scraping, cleaning, and analysis
-Pandas and NumPy for data wrangling
-Matplotlib and Seaborn for data visualization
-IBM Cognos Analytics for interactive dashboards
-Data visualization and storytelling
-Repository Contents:
-
-Data Collection: Scripts and tools for data scraping and API integration.
-Data Wrangling: Notebooks and scripts for data cleaning and preparation using Python.
-Analysis: Notebooks and scripts for statistical analysis and trend identification using Python.
-Visualization: Matplotlib and Seaborn visualizations, and IBM Cognos Analytics dashboard.
-Presentation: Final presentation with insights and trends.
-This capstone project provided valuable insights into the most in-demand programming skills and trends in the IT industry. It was an enriching experience that enhanced my skills in data analysis, visualization, and storytelling.
+Python, pandas, NumPy, Matplotlib, Seaborn, Plotly, Folium, BeautifulSoup, SQL, IBM Cognos Analytics, Google Looker Studio.
